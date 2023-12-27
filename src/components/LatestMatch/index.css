@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.latest-match-card-container {
+  margin-top: 20px;
+  width: 100%;
+}
+.latest-match-heading {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'bree serif';
+  color: #ffffff;
+}
+.latest-match-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+}
+.latest-match-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .latest-match-logo-container {
+    width: 60%;
+  }
+}
+
+.latest-match-details-main {
+  font-family: 'bree serif';
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.latest-match-team-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+.latest-match-date,
+.latest-match-venue,
+.latest-match-result {
+  font-size: 16px;
+  font-weight: 500;
+}
+.latest-match-logo {
+  width: 100px;
+  height: 100px;
+}
+.latest-match-details-info {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 20px;
+}
+.latest-match-details-label{
+  color: #ffffff;
+  font-family: 'bree serif';
+  font-size: 14px;
+}
+.latest-match-details-value{
+  color: #ffffff;
+  font-family: 'bree serif';
+  font-size: 12px;
+}
